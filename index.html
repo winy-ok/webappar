@@ -6,7 +6,10 @@
 	<body style='margin : 0px; overflow: hidden;'>
 		<a-scene embedded arjs='trackingMethod: best;sourceType:webcam;debugUIEnabled:false'>
 			<a-marker preset='custom' url="sun.patt">
+				<!--
 				<a-image width="0.5" height="0.5" src="stars-5.png"></a-image>
+				-->
+				<a-video type="video/ogg" src="34.ogv" width="2" height="2" position="0 0 0" rotation="0 0 0" ></a-video> 
 			 </a-marker>			 
 			 <!-- add a simple camera -->
 			 <a-entity camera></a-entity>
